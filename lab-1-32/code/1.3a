@@ -1,0 +1,10 @@
+For a real, periodic square wave that has amplitude 1 in [ -T1, T1 ] and period T:
+
+w0 = 2*pi/T
+
+ak = (2/T)*int(exp, -T1 , T1)
+where, exp(t) = cos(k*w0*t)
+
+ak = (2/T)*2*sin(k*w0*T1)/kw0
+
+Fourier Series coefficients { 𝑎𝑘 }  are all real valued.
